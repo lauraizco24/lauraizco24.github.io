@@ -1,0 +1,104 @@
+body{
+    width: 100%;
+    
+}
+
+.header {
+    background: url("../img/birthdaycake.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+ 
+.header .navbar {
+  background-color: transparent !important;
+  
+
+}
+section.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+
+    
+    
+}
+nav li a{
+    color: rgb(0,0,52);
+    font-weight: bolder;
+}
+
+h1 b.tituloPrincipal{
+    color: rgb(0,0,52);
+    text-shadow: 0.5px 0.5px 1px black, 0 0 0.5em yellow, 0 0 0.2em yellow;
+    font-size: 5vw;
+    z-index: 10;
+    padding-left: 5vw;
+
+}
+
+
+h2.slogan{
+    font-size: 3vw;
+    color: rgb(0,0,52);
+    z-index: 8;
+    
+}
+@media only screen  and (max-width: 480px) {
+    /* For mobile phones: */
+    header nav {
+        margin-left: 10%;
+    }
+
+    img.logoATC{
+        width: 15vw;
+    }
+    h1 b.tituloPrincipal{
+        font-size: 5vw;
+        padding-left: 5vw;
+        margin-left: 10vw;
+    }
+    h2.slogan{
+        font-size: 3vw;
+        margin-left: 8vw;
+    }
+
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    /* For mobile phones: */
+    header nav {
+        margin-left: 10%;
+    }
+
+    img.logoATC{
+        width: 15vw;
+    }
+    h1 b.tituloPrincipal{
+        font-size: 5vw;
+        padding-left: 5vw;
+    }
+    h2.slogan{
+        font-size: 3vw;
+    }
+
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+
+    img.logoATC{
+        width: 8vw;
+    }
+    header nav {
+        margin-left: 5%;
+    }
+    h1 b.tituloPrincipal{
+        font-size: 5vw;
+        padding-left: 5vw;
+    }
+    h2.slogan{
+        font-size: 3vw;
+    }
+}
+
